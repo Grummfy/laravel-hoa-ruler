@@ -1,3 +1,5 @@
+WARNING work in progress
+
 ![Hoa](http://static.hoa-project.net/Image/Hoa_small.png)
 
 Hoa is a **modular**, **extensible** and **structured** set of PHP libraries.
