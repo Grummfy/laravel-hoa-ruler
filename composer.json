@@ -1,0 +1,16 @@
+{
+    "name": "hoathis/laravel-hoa-ruler",
+    "description": "The Hoa\\Ruler Laravel integration.",
+    "type": "integration",
+    "keywords": ["laravel", "hoa", "ruler", "integration"],
+    "require": {
+        "hoa/ruler": "~1.15"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Grummfy",
+            "email": "me@grummfy.be"
+        }
+    ]
+}
