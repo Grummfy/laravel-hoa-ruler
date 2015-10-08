@@ -4,13 +4,25 @@
     "type": "integration",
     "keywords": ["laravel", "hoa", "ruler", "integration"],
     "require": {
-        "hoa/ruler": "~1.15"
+        "php" : ">=5.4",
+        "hoa/ruler": "~1.0",
+        "illuminate/container": "~5.0",
+        "illuminate/config": "~5.0"
     },
     "license": "BSD",
     "authors": [
         {
             "name": "Grummfy",
             "email": "me@grummfy.be"
+        },
+        {
+            "name"    : "Hoa community",
+            "homepage": "http://hoa-project.net/"
         }
-    ]
+    ],
+    "support": {
+        "email" : "support@lists.hoa-project.net",
+        "irc"   : "irc://irc.freenode.org/hoaproject",
+        "source": "http://git.hoa-project.net/"
+    }
 }
