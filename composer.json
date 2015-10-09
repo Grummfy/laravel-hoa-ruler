@@ -6,7 +6,7 @@
     "require": {
         "php" : ">=5.4",
         "hoa/ruler": "~1.0",
-        "illuminate/container": "~5.0",
+        "illuminate/support": "~5.0",
         "illuminate/config": "~5.0"
     },
     "license": "BSD",

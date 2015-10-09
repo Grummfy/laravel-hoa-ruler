@@ -23,9 +23,28 @@ dependencies, you need to require
 }
 ```
 
-TODO ... install steps
+or simply run
+
+	composer require "hoathis/laravel-hoa-ruler"
+
+
+Once you have run a composer update, you need to register the service provider. Open config/app.php and add the following to the providers key.
+
+	'HoaThis\LaravelHoaRuler\Laravel\Providers\RulerServiceProvider'
+
+Optionally, to register the Ruler facade, in the aliases key of your config/app.php file add
+
+	'Ruler' => 'HoaThis\LaravelHoaRuler\Laravel\Facades\Ruler'
+
+And then use ```php artisan vendor:publish``` to publish the default configuration.
+
+Then you are ready to use!
 
 ## Quick usage
+
+### Configuration options
+
+TODO
 
 ### Ruler service
 
@@ -37,9 +56,6 @@ TODO ... install steps
 
 ### Profiler
 ...
-
-### Configuration reference
-....
 
 ## License
 
